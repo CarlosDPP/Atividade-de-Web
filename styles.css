@@ -81,6 +81,12 @@
   background-color: #293843;
   color: #7a8997;
 }
+.Form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+}
 
 .FooterChat {
   display: flex;
@@ -95,7 +101,7 @@
   background-color: #293843;
   color: #7a8997;
 
-  padding: 5px 15px;
+  padding: 5px 20px;
   cursor: pointer;
 }
 
