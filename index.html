@@ -58,16 +58,14 @@
       function addComment() {
         var message = document.getElementById("myInput").value;
 
-        let newMessage = document.createElement("div");
-        newMessage.innerHTML = `
+        const userMessage = document.getElementById("UserBox");
+        userMessage.innerHTML += `
         <p>Você diz:</p>
         <div class="TextMessage">
           <p>${message}</p>
         </div>
 
         `;
-        const userMessage = document.getElementById("UserBox");
-        userMessage.appendChild(newMessage);
 
         document.getElementById("formAdd").reset();
       }
